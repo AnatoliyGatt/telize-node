@@ -43,7 +43,7 @@
   },
   "config": {},
   "dependencies": {
-    "deep-freeze-node": "^1.0.7"
+    "deep-freeze-node": "^1.0.8"
   },
   "devDependencies": {
     "mocha": "^2.2.5"
