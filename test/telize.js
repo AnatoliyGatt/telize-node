@@ -43,13 +43,13 @@ describe("telize", function() {
                 });
             });
 
-            it("should fail on calling #getIP() without arguments", function() {
+            it("should fail when called without arguments", function() {
                 assert.throws(function() {
                     telize.getIP();
                 }, Error);
             });
 
-            it("should not override #getIP()", function() {
+            it("should not be overridden", function() {
                 telize.getIP = function() {
                     return "#getIP()";
                 };
@@ -117,19 +117,19 @@ describe("telize", function() {
                 });
             });
 
-            it("should fail on calling #getGeoIP() without arguments", function() {
+            it("should fail when called without arguments", function() {
                 assert.throws(function() {
                     telize.getGeoIP();
                 }, Error);
             });
 
-            it("should fail on calling #getGeoIP() with IP address only", function() {
+            it("should fail when called with IP address only", function() {
                 assert.throws(function() {
                     telize.getGeoIP("46.19.37.108");
                 }, Error);
             });
 
-            it("should not override #getGeoIP()", function() {
+            it("should not be overridden", function() {
                 telize.getGeoIP = function() {
                     return "#getGeoIP()";
                 };
