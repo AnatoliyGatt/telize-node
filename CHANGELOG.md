@@ -1,3 +1,9 @@
+1.0.3 / 2015-08-10
+==================
+
+* Updated telize.js callback calls in case of error
+* Fixed telize.js callback call in case of custom server error
+
 1.0.2 / 2015-08-06
 ==================
 
