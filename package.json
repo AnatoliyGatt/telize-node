@@ -1,6 +1,6 @@
 {
   "name": "telize-node",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An asynchronous client library for Telize API.",
   "keywords": [
     "telize",
