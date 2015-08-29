@@ -123,14 +123,14 @@ Distributed under the [MIT License](LICENSE).
 
 [npm-package-url]: https://npmjs.org/package/telize-node
 
-[npm-package-version-badge]: https://img.shields.io/npm/v/telize-node.svg
+[npm-package-version-badge]: https://img.shields.io/npm/v/telize-node.svg?style=flat-square
 
-[npm-package-license-badge]: https://img.shields.io/npm/l/telize-node.svg
+[npm-package-license-badge]: https://img.shields.io/npm/l/telize-node.svg?style=flat-square
 [npm-package-license-url]: http://opensource.org/licenses/MIT
 
-[npm-package-downloads-badge]: https://img.shields.io/npm/dm/telize-node.svg
+[npm-package-downloads-badge]: https://img.shields.io/npm/dm/telize-node.svg?style=flat-square
 
-[travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/telize-node.svg
+[travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/telize-node.svg?style=flat-square
 [travis-ci-build-status-page-url]: https://travis-ci.org/AnatoliyGatt/telize-node
 
 [npm-package-statistics-badge]: https://nodei.co/npm/telize-node.png?downloads=true&downloadRank=true&stars=true
