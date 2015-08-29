@@ -1,4 +1,4 @@
-# Telize for Node.js
+![telize-node Logo][logo]
 
 An asynchronous client library for Telize [API](http://telize.com/).
 
@@ -126,6 +126,8 @@ $ npm test
 ## License
 
 Distributed under the [MIT License](LICENSE).
+
+[logo]: https://cldup.com/mRUAz79vf1.png
 
 [npm-package-url]: https://npmjs.org/package/telize-node
 
