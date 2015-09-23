@@ -1,3 +1,21 @@
+1.0.5 / 2015-09-23
+==================
+
+* Fix fallthrough in case when callback is called within catch block
+* Replace " with ' in definitions of all strings in README.md code samples
+* Replace " with ' in definitions of all strings in index.js
+* Replace " with ' in definitions of all strings in telize.js tests
+* Replace " with ' in definitions of all strings in telize.js
+* Update .travis.yml to run tests against node v4.0.0
+* Update .travis.yml to run tests against all major versions of iojs from 1.0.0 to 3.0.0
+* Add iojs (>= 1.0.0) to engines in package.json
+* [CodeClimate] Fix 'request is already defined' in telize.js
+* [CodeClimate] Fix 'parsedResponse is used out of scope' and 'parsedResponse is defined but never used' in telize.js
+* [CodeClimate] Fix 'Confusing use of negation operator' in telize.js
+* Add npm (>= 1.2.14) to engines in package.json
+* Fix node-download-page-url in README.md
+* Change node version from (>= 0.10.x) to (>= 0.10.0) in package.json
+
 1.0.4 / 2015-08-29
 ==================
 
