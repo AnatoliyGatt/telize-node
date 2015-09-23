@@ -25,7 +25,7 @@ An asynchronous client library for Telize [API](http://telize.com/).
 The quickest way to get started is by executing following code:
 
 ```javascript
-var telize = require("telize-node")();
+var telize = require('telize-node')();
 
 telize.getIP(function(error, ip) {
     if(!error) {
@@ -89,7 +89,7 @@ telize.getGeoIP(function(error, data) {
 Requests GeoIP data for manually set IPv4 address.
 
 ```javascript
-telize.getGeoIP("46.19.37.108", function(error, data) {
+telize.getGeoIP('46.19.37.108', function(error, data) {
     if(!error) {
         console.log(data);
     } else {
@@ -101,7 +101,7 @@ telize.getGeoIP("46.19.37.108", function(error, data) {
 Requests GeoIP data for manually set IPv6 address.
 
 ```javascript
-telize.getGeoIP("2a02:2770::21a:4aff:feb3:2ee", function(error, data) {
+telize.getGeoIP('2a02:2770::21a:4aff:feb3:2ee', function(error, data) {
     if(!error) {
         console.log(data);
     } else {
