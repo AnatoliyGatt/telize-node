@@ -80,7 +80,7 @@ describe('telize', function() {
 
             it('should respond with GeoIP data object for current IP address', function(done) {
                 telize.getGeoIP(function(error, data) {
-                    if(!error) {
+                    if (!error) {
                         validateGeoIPData(data);
                     } else {
                         assert.throws(function() {
