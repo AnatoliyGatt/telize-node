@@ -93,7 +93,7 @@ describe('telize', function() {
 
             it('should respond with GeoIP data object for manually set IP address', function(done) {
                 telize.getGeoIP('46.19.37.108', function(error, data) {
-                    if(!error) {
+                    if (!error) {
                         validateGeoIPData(data);
                     } else {
                         assert.throws(function() {
