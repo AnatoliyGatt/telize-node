@@ -106,7 +106,7 @@ describe('telize', function() {
 
             it('should respond with error when called with invalid IP address', function(done) {
                 telize.getGeoIP('46.19.37', function(error, data) {
-                    if(!error) {
+                    if (!error) {
                         validateGeoIPData(data);
                     } else {
                         assert.throws(function() {
