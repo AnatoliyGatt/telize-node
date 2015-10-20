@@ -32,7 +32,7 @@ describe('telize', function() {
         describe('#getIP()', function() {
             it('should respond with IP address', function(done) {
                 telize.getIP(function(error, ip) {
-                    if(!error) {
+                    if (!error) {
                         assert.notEqual(ip, undefined, 'ip should not be undefined');
                     } else {
                         assert.throws(function() {
