@@ -1,3 +1,21 @@
+1.0.6 / 2015-11-02
+==================
+
+* Fix anonymous functions declaration coding style in telize.js tests
+* Fix anonymous functions declaration coding style in telize.js
+* Fix 'if-else statements' coding style in telize.js tests
+* Fix 'else-if statement' coding style in telize.js
+* Fix 'try-catch statements' coding style in telize.js
+* Fix 'if-else statements' coding style in telize.js
+* Fix 'if statements' coding style in telize.js
+* Update dev dependencies
+* Update .travis.yml to run tests against node v4.2.0
+* Remove manual deletion script of coverage directory in .travis.yml
+* Replace unencrypted CodeClimate repo_token with encrypted one in .travis.yml
+* Update .travis.yml to run tests against node v4.1.0
+* Update dependencies
+* Add author.url to package.json
+
 1.0.5 / 2015-09-23
 ==================
 
